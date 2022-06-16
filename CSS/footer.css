@@ -1,0 +1,337 @@
+body {
+    color: #000000;
+    margin: 0;
+    font-size: 14px;
+    font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-weight: 400;
+    line-height: 1.43;
+    background-color: #FFFFFF;
+}
+#blue_box{
+ max-width: 100vw;
+ background-color: rgb(0 15 197);
+ text-align: center;
+ height: 7vh;
+ padding: 5px;
+
+}
+#blue_box > h3{
+    color: #ffffff;
+    margin: 0;
+    font-size: 16px;
+    font-family: ProximaNova-Semibold,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-weight: normal;
+}
+
+#items>div{
+    display: none;
+}
+#slider{
+    display: flex;
+    width: 73vw;
+    margin: 10px  auto;
+  
+    text-align: center;
+    cursor: pointer;
+}
+ 
+
+
+  #main_box{
+      width: 90vw;
+      margin: auto;
+     
+  }
+
+
+#slider > div:nth-child(2) img{
+      width: 70vw;
+     
+      
+}
+.greater_logo{
+    width: 18px;
+    margin-top: 15vw;
+    margin-left: 3px;
+}
+.greater_logo:hover{
+    width: 50px;
+    cursor: pointer;
+    
+}
+.border_bottom{
+    border-bottom: 1px solid #ecedeb;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(236, 237, 235);
+}
+#offers_div {
+   
+    margin: auto;
+    padding: 50px 0px;
+   
+   
+
+}
+#offers_div > img{
+    width: 100%;
+    margin: auto;
+    cursor: pointer;
+}
+#shop_by_age{
+    font-size: 36px;
+    font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-weight: normal;
+    margin-bottom: 26px;
+}
+
+#under_shop_by_age{
+    width: 80vw;
+    margin: auto;
+    
+    display: grid;
+    grid-gap: 1vw;
+    grid-template-columns: auto auto auto;
+}
+#under_shop_by_age > div img{
+    width: 100%;
+  
+}
+.h2_tag{
+    font-size: 36px;
+    font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-weight: normal;
+    margin-bottom: 26px;   
+}
+.under_must_haves{
+    display: flex;
+}
+.under_must_haves>div{
+    width: 49%;
+    margin: 1%;
+    cursor: pointer;
+}
+
+.under_must_haves>div>img{
+    width: 100%;
+}
+#circle_images{
+    display: flex;
+
+}
+  #circle_images > div{
+      margin: 0.5vw;
+     
+  }
+#circle_images > div>img{
+    width: 100%;
+}
+.circle_img_below_headings{
+    font-size: 18px;
+    color: #000000;
+    text-align: center;
+    font-family: ProximaNova-Semibold,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-weight: normal;
+    line-height: 1.2;
+}
+#popular_now{
+    padding: 0px;
+}
+.popular_image img{
+  width: 100%;
+  cursor: pointer;
+}
+
+
+  #subscription_details{
+      display: flex;
+  }
+
+#subscription_details >div > h4{
+    font-family: ProximaNova-Bold,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 24px;
+    font-weight: block;
+    
+    display: block;
+    margin-bottom: 10px;
+   
+  
+    
+
+}
+  #subscription_details> div p{
+    color: #929391;
+    font-size: 16px;
+    font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-weight: 400;
+    line-height: 1;
+    margin: 0px;
+    margin-bottom: 15px;
+  }
+
+  #subscription_details > div > form input:nth-of-type(1){
+    height: 20px;
+    padding: 18px 24px;
+    width: 20vw;
+    font-size: 16px;
+    border: none;
+    background-color:  #e0e7da75;
+  }
+  #subscription_details > div > form input:nth-of-type(2){
+    height: 40px;
+    
+    width: 10vw;
+    font-size: 16px;
+    border: none;
+    color: white;
+    background-color:  #080c04ee;
+  }
+
+  #text{
+      color: rgb(27, 226, 27);
+     
+      display: none;
+  }
+
+   #download_links{
+       display: flex;
+       width: 40vw;
+      
+       
+   }
+   #download_links> div img{
+       width: 100%;
+   }
+   #different_pages_links{
+       display: grid;
+       grid-template-columns: repeat(5,1fr);
+       grid-template-rows: auto;
+   }
+
+   #different_pages_links > div h6{
+    font-family: ProximaNova-Bold,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-weight: bold;
+    line-height: 1.6;
+    font-size: 16px;
+    margin-bottom: 0px;
+
+
+}
+#different_pages_links > div a{
+   
+    color: #5d5e5c;
+    text-decoration: none;
+    box-sizing: inherit;
+    line-height: 1.75;
+    font-size: 14px;
+    font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-weight: 400;
+
+}
+
+#contact_us_page{
+    display: flex;
+}
+
+#contact_details{
+    display: grid;
+    width: 75%;
+    grid-gap: 5vw;
+    grid-template-columns: repeat(3,1fr);
+   
+}
+
+   #contact_details > div > p{
+    color: rgb(146, 147, 145);
+    font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-weight: normal;
+    text-transform: none;
+    margin-bottom: 0px;
+   }
+   #contact_details > div > h4{
+    
+    font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-weight: normal;
+    text-transform: none;
+    margin:0px;
+   }
+   #contact_details > div{
+       display: flex;
+   }
+   #contact_details > div > img{
+       width: 5vw;
+       margin: 5px;
+   }
+  #icons{
+      width: 25%;
+      display: flex;
+      
+      text-align: center;
+  }
+#icons > img{
+    width: 5vw;
+   
+    margin: 10px;
+}
+
+#last_box {
+    display: flex;
+}
+#last_box > img{
+    width: 10vw;
+}
+#last_box p{
+    margin-bottom: 0px;
+    line-height: 12px;
+  
+}
+   
+
+  
+
+@media all and (min-width:0px) and (max-width:600px){
+
+          
+    #under_shop_by_age{
+       
+        
+        display: grid;
+        grid-gap: 1vw;
+        grid-template-columns: auto ;
+        grid-template-rows: auto;
+        
+        
+    }
+
+    .under_must_haves{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .under_must_haves>div{
+        width: 98%;
+        margin: 1%;
+        cursor: pointer;
+    }
+
+
+    #circle_images{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto;
+    
+    }
+    #circle_images > div img{
+        width: 40vw;
+    }
+    #contact_details{
+        display: grid;
+       
+       
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: auto;
+      
+       
+    }
+
+    
+}

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/4f2af7deb6.js" crossorigin="anonymous"></script>
+    <title>basket</title>
+</head>
+<link rel="stylesheet" href="./CSS/basket.css">
+<link rel="stylesheet" href="./CSS/index.css">
+<link rel="stylesheet" href="./CSS/footer.css">
+<link rel="stylesheet" href="./css/sigin.css">
+<link rel="stylesheet" href="./css/pocket_cart_box.css">
+
+<body>
+    <div id="navbar">
+        <div>
+            <div>
+                <i class="fa-solid fa-truck"></i>
+                Free Shipping
+            </div>
+            <div>
+                <i class="fa-solid fa-store"></i>
+                Return To Store
+            </div>
+            <div>
+                <i class="fa-solid fa-store"></i>
+                Click & Collect
+            </div>
+        </div>
+        <div id="links">
+            <a href="">Download Our Apps</a>
+            <div></div>
+            <a href="">Store Locator</a>
+            <div></div>
+            <a href="">Help</a>
+        </div>
+    </div>
+    <br>
+    <div id="Navbar2">
+        <div>
+            <img src="https://i1.lmsin.net/website_images/in/logos/logo-max.svg" alt="logo">
+            <a href="women.html">Women</a>
+            <a href="">Men</a>
+            <a href="girls.html">Girls</a>
+            <a href="">Boys</a>
+            <div id="search">
+                <div> <i class="fa-solid fa-magnifying-glass"></i></div>
+                <div><input type="search" id="S" onkeyup="search()" placeholder="What are you looking for?"></div>
+            </div>
+
+            <!-- ---------------------------------------------------------------------------------------------------------------------------------------------- -->
+        </div>
+        <div id="links2">
+            <a id="sign_up">Sign Up</a>
+            <a id="sign_in">Sign In</a>
+            <div></div>
+            <a href="basket.html"> Basket</a>
+            <i id="basket" class="fa-solid fa-bag-shopping"></i>
+        </div>
+    </div>
+
+
+
+    <div class="parent_box">
+
+        <div id="cross_img"><img
+                src="https://th.bing.com/th/id/R.30bace511841eb71e9f7c683c49aaf8b?rik=GYluK%2b8U5bSMZg&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_5332.png&ehk=W1eOHRnQJ9vwFlACNT2DCFPckuEITF0G%2bxttWZoNoUA%3d&risl=&pid=ImgRaw&r=0"
+                alt=""></div>
+
+        <div id="signup_box" class="box">
+            <h1>Create Account</h1>
+            <p>Enjoy the convenience of single account across all participation brands</p>
+            <form action="" id="form_1">
+                <p>Your name</p>
+                <input type="text" id="name_1" placeholder="Enter your good name">
+                <p>Email</p>
+                <input type="" id="email_1" placeholder="Your Email">
+                <p>Password</p>
+                <input type="password" id="password_1" placeholder="Password at least 6 characters">
+                <div id="tc">Already have an account? <a href="sigin.html">Sign in</a></div>
+                <hr>
+                <input type="submit" value="CONTINUE" id="submit_1" class="submit">
+            </form>
+        </div>
+
+        <div id="login_box" class="box">
+            <h1>Sign In</h1>
+            <p>Enjoy the convenience of single account across all participation brands</p>
+            <form action="" id="form_2">
+                <p>User name</p>
+                <input type="email" id="email_2" placeholder="Enter your email here">
+                <p>Password</p>
+                <input type="password" id="password_2" placeholder="Password at least 6 characters">
+                <div id="tc">Create your account <a href="signup.html">Sign up</a></div>
+                <hr>
+                <input type="submit" value="CONTINUE" id="submit_2" class="submit">
+            </form>
+        </div>
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+    <br>
+    <br>
+
+
+
+    <div id="cart_n_price_box">
+        <div id="cart">
+            <div id="offer">
+                <p>Get the offer</p>
+                <p>• Flat 500 Off on 1999 & above, code- MAX500</p>
+                <p>• Flat 200 Off on 999 & above orders, code- NEW200 (First purchase only)</p>
+                <br>
+                <hr>
+
+            </div>
+            <div id="max">
+                <img style="width: 100px;" src="https://i1.lmsin.net/website_images/in/logos/logo-max.svg" alt="">
+                <h1 id="totalItems"></h1>
+            </div>
+
+
+            <hr>
+
+            <div id="container"></div>
+
+        </div>
+
+
+
+
+        <div id="order">
+            <div>
+                <div id="subtotal">
+                    <p>Standart Ground Shipping:</p>
+                    <p>Free</p>
+                    <hr>
+                    <h2>TOTAL</h2>
+                    <h2>₹ 0</h2>
+                    <h2 id="dis_price">Discounted Price ₹0</h2>
+
+                </div>
+                <button><a href="/checkout.html"> Proceed to Checkout</a></button>
+                <div id="promo">
+                    <img src="https://i1.lmsin.net/website_images/common/images/basket/ico-gift.png" alt="">
+                    Got a Promo/Voucher Code?
+                </div>
+                <div id="p2">
+                    <input id="code" type="text" placeholder="Enter Promo Code">
+                    <button id="apply">Apply</button>
+                    <button>Cancel</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./JS/basket.js"></script>
+<script src="./JS/index.js"></script>
+<script src="./js/signup_login.js"></script>
+<script src="./js/pocket_cart_box.js"></script>
+
+</html>

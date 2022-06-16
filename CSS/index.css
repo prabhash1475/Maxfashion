@@ -1,0 +1,107 @@
+*{
+    font-family: ProximaNova-Semibold,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+}   
+    #navbar{
+    height: 42px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    margin-top: -1%;
+}
+#navbar>div{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+}
+#navbar>div>div,a{
+margin: auto;
+padding: 14px;
+color: white;
+}
+#navbar>#links{
+    width: 25%;
+    margin-right: 3%;    
+}
+#links>a{
+    color: #FFFFFF;
+    font-size: 12px;
+}
+#links>div{
+    border-left: 0.1px solid rgb(109, 105, 105);
+}
+
+#Navbar2{
+    display: flex;
+    height: 64px;
+    background-color: #f7f8f7;
+    margin-top: -1%;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    position: fixed;
+    margin-top: 0.5%;
+
+   
+}
+
+#Navbar2>div>img{
+    width: 101px;
+    height: 52px;
+}
+#Navbar2>div>a{
+    color: black;  
+}
+#Navbar2>div>a:hover{
+    background-color: white;
+    color: blue;
+}
+
+#Navbar2>div:first-child{
+    width: 65%;
+    display: flex;
+
+}    
+#search{
+    width: 350px;
+    border: 1px solid #ECEDEB;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+    background-color: #ecedeb;
+    padding:0px 7px 0px 14px;
+    margin-top: 0.7%;
+ 
+}
+#search>div>input{
+    width: 300px;
+    height: 30px;
+    padding:0px 7px 0px 14px;
+    background-color: #ecedeb;
+    border: 1px solid #ECEDEB;
+}
+#search>div>i{
+    width: 30px;
+    height: 24px;
+    padding: 0px 7px 0px 14px;
+}
+
+#links2{
+    display: flex;
+}
+#links2>div{
+    border-left: 0.1px solid rgb(192, 182, 182);
+    height: 25px;
+    margin-top: 4%;
+}
+
+#basket{
+    margin-top: 7%;
+    margin-left: -4%;
+}
+

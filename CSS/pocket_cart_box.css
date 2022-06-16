@@ -1,0 +1,61 @@
+
+  .parent{
+      margin-top :1vw ;
+      position: relative;
+     
+  }
+#pocket_cart_box{
+    display: block;
+    width: 25vw;
+    height: 500px;
+   
+    position: fixed;
+    right: 5vw;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background-color: white;
+    display: none;
+}
+.pocket_cart_items{
+    display: flex;
+    margin: 1vw;
+    border: 1px solid black;
+}
+.pocket_cart_items div{
+    margin-left: 1vw;
+}
+#pocket_cart_box >div{
+    border: 1 px solid grey;
+   
+    margin: 5px;
+    border-radius:  3px;
+}
+.pocket_cart_items > img{
+    width: 8vw;
+    margin: 0.5vw;
+}
+.sub_total{
+    text-align: center;
+    width: 25vw;
+   background-color: rgb(250, 249, 249);
+   position: fixed;
+   bottom: 105px;
+}
+.sub_total  button:nth-of-type(1){
+    border: none;
+    margin: 10px;
+    width: 40%;
+    height: 2.5vw;
+    border-radius: 5px;
+    color: blue;
+    background-color: rgb(174, 252, 167);
+}
+.sub_total  button:nth-of-type(2){
+    border: none;
+    margin: 10px;
+    width: 40%;
+    height: 2.5vw;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+}

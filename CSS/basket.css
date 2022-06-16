@@ -1,0 +1,182 @@
+*{
+    font-family: "ProximaNova","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+
+#cart{
+    width: 668px;
+    height: 531px;
+    overflow: hidden;
+     /* Set the navbar to fixed position */
+    background-color: rgb(235, 220, 220);
+   
+    margin: 5vw;
+    padding: 2%;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+#order{
+    width:336px;
+    height: 531px;
+   
+    color:black;
+    background-color: rgb(194, 194, 229);
+    overflow: hidden;
+    /* Set the navbar to fixed position */
+    
+    margin: 5vw;
+    padding: 2%;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
+}
+
+#subtotal :not(hr){
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    gap: 5px;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+
+#order>div>div>p+p{
+    color: #00b037;
+    font-weight: bold;
+}
+#order>div>button{
+    width: 100%;
+    padding: 2% 15%;
+    color:white;
+    font-weight: bold;
+    background-color: #303ab2;
+    border-style: solid;
+  
+}
+
+#promo{
+    margin: 8% 0%
+}
+#promo>img{
+    width: 24px;
+    height: 18px;
+}
+#p2{
+    height: 20px;
+    padding: 2%;
+    background-color: #fbfbfb;
+    border: 1px solid #ECEDEB;
+}
+#p2>button{
+    background-color: #fbfbfb;
+    border: 1px solid #fbfbfb;
+    color: #303ab2;
+    font-weight: bold;
+}
+#p2>input{
+    background-color: #fbfbfb;
+    border: 1px solid #fbfbfb;
+}
+
+#p2>button+button{
+    border-left:1px solid rgb(202, 196, 196);
+}
+
+
+#offer>p:first-child{
+    color: #ff5100;
+    font-weight: bold;
+    font-size: 14px;
+}
+#offer>p{
+    font-size: 12px;
+}
+#max{
+    display: flex;
+    width: 100%;
+   justify-content: space-between;
+}
+
+#container{
+    width: 100%;
+    height: 320px;
+    overflow: scroll;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:5px;
+}
+
+#container>div{
+
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    width: 200px;
+
+}
+
+img{
+    width: 100%;
+
+}
+
+#container>div>{
+   margin-left: 5%;
+   color: #00b037;
+}
+
+#container>div>div{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-bottom: 2%;
+    margin-top: -10%;
+    align-items: flex-end;
+}
+
+#container>div>div>p+button{
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+}
+#container>div>div>button{
+    width: 65px;
+    height: 25px;
+
+}
+
+#dec_btn{
+    background-color: orange;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+#inc_btn{
+    background-color: green;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+#cart_n_price_box{
+    display: flex;
+   
+}
+@media all and (min-width:0px) and (max-width:850px) {
+    #cart_n_price_box{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+       
+    }
+    
+}
+#T{
+    display: flex;
+}
+
+#subtotal>h2+h2+h2{
+    color:#010301;
+}
+
+
+
+
+
+
+
+

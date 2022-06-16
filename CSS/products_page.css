@@ -1,0 +1,39 @@
+#product_box{
+    display: grid;
+    grid-gap: 1vw;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+
+}
+
+#main_box{
+    width: 90vw;
+    margin: auto;
+   
+}
+.add_to_cart_btn{
+   background-color: #0015DF;
+   color: white;
+   width: 100%;
+   border: none;
+   height: 40px;
+
+    display: none;
+}
+#product_box > div:hover{
+    display:inline;
+    -ms-transform-origin-x: 10%;
+   
+}
+
+#product_box > div img{
+    width: 100%;
+}
+#innernavbar{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    height: 20px;
+    margin-top: 4%;
+}
+

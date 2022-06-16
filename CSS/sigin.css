@@ -1,0 +1,56 @@
+.parent_box{
+  position: fixed;
+  left: 35%;
+  background-color: white;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  display: none;
+  box-shadow: inset;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .5);
+<<<<<<< Updated upstream
+  margin-top: 5%;
+=======
+  border-radius: 10px;
+>>>>>>> Stashed changes
+  
+  
+ 
+}
+
+#cross_img{
+ margin-top: 10px;
+ margin-left: 90%;
+  width: 20px;
+  border: 1px solid black;
+  text-align: center;
+  padding: 1px;
+}
+#cross_img img{
+  margin-top: 2px;
+  width: 15px;
+}
+.box input{
+  width: 90%;
+  height: 40px;
+  border-radius: 5px;
+  
+}
+.box{
+  margin: 1vw;
+ 
+}
+.box > h1{
+  text-align: center;
+}
+.submit{
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin: auto;
+  
+}
+#signup_box ,#login_box{
+  display: none;
+}
+
+  

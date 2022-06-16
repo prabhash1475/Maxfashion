@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a1a5ed085a.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <style>
+        #upper {
+            display: flex;
+            justify-content: space-between;
+            margin: 0px 10px 0px 10px;
+            font-size: small;
+            color: gray;
+        }
+
+        img {
+            width: 120px;
+            height: 30px;
+        }
+
+        #home {
+            border: 1px solid blue;
+            width: 400px;
+            text-align: center;
+            margin: auto;
+        }
+
+        #two {
+            display: flex;
+            justify-content: space-around;
+
+        }
+
+        #address {
+            width: 45%;
+            /* height: 400px; */
+            /* border: 1px solid rgb(67, 185, 96); */
+        }
+
+        #payment {
+            width: 45%;
+            /* border: 1px solid red; */
+            height: 400px;
+        }
+
+
+        label,
+        input {
+            display: block;
+            margin: 10px
+        }
+
+        input {
+            width: 400px;
+            padding: 6px;
+        }
+
+        #btn {
+            background-color: #0146be;
+            color: #fff;
+        }
+
+        /* pppppppp
+         */
+
+        .card_type {
+            width: 350px;
+            margin: 25px;
+            gap: 10px;
+            /* height: 60px; */
+            background-color: rgb(255, 255, 255);
+            justify-content: center;
+            padding: 10px;
+            color: black;
+        }
+
+        /* popup */
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .popup {
+            width: 95%;
+            height: 90%;
+            background-color: #0146be;
+            color: #fff;
+
+            position: absolute;
+            top: 30%;
+            left: 30%;
+            transform: translate(-50% -50%) scale(0.1);
+            padding: 10px;
+            text-align: center;
+            visibility: hidden;
+            transition: transform cubic-bezier(0.075, 0.82, 0.165, 1);
+        }
+
+        .popup img {
+            width: 200px;
+            height: 245px;
+            border-radius: 50%;
+            margin-top: -20%;
+            margin-top: 50px;
+        }
+
+        .popup button {
+            padding: 20px;
+            background-color: chartreuse;
+            margin-top: 20px;
+
+            font-weight: bold;
+            border-radius: 12px;
+            border: none;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+                rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+                rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+        }
+
+        .open-popup {
+            visibility: visible;
+            top: 63%;
+            left: 50%;
+            transform: translate(-50%, -50%) scale(1);
+        }
+
+        /* popup */
+    </style>
+</head>
+
+<body>
+    <div id="upper">
+
+        <img src="https://i1.lmsin.net/website_images/in/logos/header/logo-max.svg" alt="">
+        <div>
+            <div>
+                <i class="fa-solid fa-circle-phone"></i>
+
+            </div>
+
+            <p> Call 1800-123-1444</p>
+            <p>Monday-Saturday, 09:00AM - 07:00PM</p>
+        </div>
+
+    </div>
+    <hr>
+    <!-- 2nd part -->
+
+    <div id="home">
+        <h3>Home Delivery</h3>
+        <p>Get your product delivered to your home.</p>
+    </div>
+    <!-- part3rd -->
+    <div id="two">
+        <div id="address">
+            <h3>Add your shipping address</h3>
+
+
+            <label for="">Full Name</label>
+            <input type="text" placeholder="Enter Full Name">
+
+            <label for="">Mobile Number</label>
+            <input type="text" placeholder="Enter Mobile No.">
+
+            <label for="">Pincode</label>
+            <input type="text" placeholder="Enter Pincode">
+
+            <label for="">City</label>
+            <input type="text" placeholder="Enter Your City">
+
+            <label for="">State</label>
+            <input type="text" placeholder="Enter your State">
+
+            <label for="">Landmark</label>
+            <input type="text" placeholder="Landmark">
+
+
+        </div>
+        <div id="payment">
+            <h3>Payment Method</h3>
+            <li type="circle">Credit Card</li>
+            <li type="circle">Debit Card</li>
+
+
+            <!-- ppppppp -->
+            <form>
+                <input id="mobile" type="number" placeholder="Mobile no" />
+                <input type="email" placeholder="Enater email" />
+                <input id="card" type="number" placeholder="-------card no--------" />
+                <input id="cvv" type="number" placeholder="CVV" />
+                <input id="otp" type="number" placeholder="OTP" />
+                <input id="btn" type="submit" value="Pay Now" />
+            </form>
+            <div class="card_type">
+                <i class="fa-brands fa-cc-visa fa-3x"></i>
+
+                <i class="fa-brands fa-cc-amex fa-3x"></i>
+                <i class="fa-brands fa-cc-mastercard fa-3x"></i>
+                <i class="fa-brands fa-cc-apple-pay fa-3x"></i>
+                <i class="fa-solid fa-credit-card fa-3x"></i>
+                <i class="fa-brands fa-cc-amazon-pay fa-3x"></i>
+            </div>
+            <!-- popup -->
+            <div class="popup">
+                <img src="https://pngimage.net/wp-content/uploads/2018/06/right-tick-mark-png-5.png" alt="">
+                <h1>Order Succesfully Placed</h1>
+                <H3>Thank you for Shopping with us</H3>
+                <button><a href="/index.html"> Continue Shopping</a></button>
+            </div>
+
+            <!-- popup -->
+        </div>
+
+    </div>
+</body>
+
+</html>
+<script>
+    document.querySelector("form").addEventListener("submit", payment);
+    function payment() {
+        event.preventDefault();
+        if (
+            document.querySelector("#cvv").value == "999" &&
+            document.querySelector("#otp").value == "123"
+        ) {
+            //   alert("Order Succesfuly Placed");
+            //   popup/////
+            document.querySelector("form").addEventListener("submit", popupfun);
+            function popupfun() {
+                document.querySelector(".popup").classList.add("open-popup")
+            }
+            // popup//////
+        } else {
+            alert("Incerect Detail");
+        }
+    }
+</script>
